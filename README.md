@@ -1,78 +1,60 @@
-# Christian Costa Engenharia Civil — Site Institucional
+# Christian Costa Engenharia Civil — Site Institucional (v3.1)
 
-Site profissional completo para a empresa de Engenharia Civil.
+Evolução do site v2/v3 com logos integrados, correções de legibilidade e refinamentos visuais.
 
 ## Arquivos
 
 ```
-christian-costa-engenharia/
-├── index.html      # Página principal (toda a estrutura)
-├── style.css       # Estilos completos (responsivo)
-├── script.js       # Interatividade (menu, animações, filtro)
-├── vercel.json     # Configuração de deploy no Vercel
+cc-v3/
+├── index.html            # Estrutura completa (9 seções)
+├── style.css             # Estilos (70% branco, azul como acento)
+├── script.js             # Menu mobile, navbar, animações, nav ativo
+├── vercel.json           # Configuração de deploy
+├── logo-branco.png       # Logo branca — navbar e rodapé  ✅ incluída
+├── logo-colorido.png     # Logo colorida — seção Sobre    ✅ incluída
 └── README.md
 ```
 
+## Imagens para adicionar
+
+Coloque os arquivos abaixo **na mesma pasta** do `index.html`.  
+O site já está configurado para buscá-los pelos nomes exatos.  
+Enquanto não existem, carrega automaticamente imagens Unsplash de placeholder.
+
+| Arquivo | Onde aparece |
+|---|---|
+| `foto-christian.jpg` | Hero (card do engenheiro) e Seção Sobre |
+| `regularizacao.jpg` | Card destaque — Regularização de Imóveis |
+| `projetos.jpg` | Card — Projetos Residenciais |
+| `apartamento.jpg` | Card — Reforma de Apartamentos |
+| `laudos.jpg` | Card — Laudos e Vistorias |
+| `apoio-tecnico.jpg` | Card — Apoio Técnico e seção Para Empresas |
+| `portfolio-01.jpg` | Portfólio — item grande (Regularização) |
+| `portfolio-02.jpg` | Portfólio — Projeto Arquitetônico |
+| `portfolio-03.jpg` | Portfólio — Reforma de Apartamento |
+| `portfolio-04.jpg` | Portfólio — Levantamento As Built |
+
+> **Dica de proporção:** fotos de serviços idealmente em 16:10 · portfólio em 4:3 · foto do engenheiro em 3:4 (retrato).
+
+## Logos
+
+| Arquivo | Uso | Observação |
+|---|---|---|
+| `logo-branco.png` | Navbar + rodapé | PNG com fundo transparente. O CSS aplica `filter: brightness(0) invert(1)` — garante branco puro mesmo em versão colorida |
+| `logo-colorido.png` | Seção Sobre | Exibida sobre fundo branco |
+
 ## Como publicar no Vercel
 
-1. Acesse https://vercel.com e faça login
-2. Clique em **"Add New → Project"**
-3. Faça upload da pasta ou conecte ao GitHub
-4. Deploy automático — o `vercel.json` já está configurado
-
-## Personalização necessária
-
-### 1. Foto do Engenheiro
-Substitua o placeholder na seção **Hero** e **Sobre**:
-```html
-<!-- No hero, troque .photo-placeholder pelo: -->
-<img src="foto-christian.jpg" alt="Christian Costa - Engenheiro Civil" />
-
-<!-- No sobre, troque .sobre-photo-placeholder pelo: -->
-<img src="foto-sobre.jpg" alt="Christian Costa" />
-```
-
-### 2. Logo da Empresa
-Substitua os espaços reservados de logo:
-```html
-<!-- Troque .logo-mark e .logo-text pela sua logo: -->
-<img src="logo.png" alt="Christian Costa Engenharia" />
-```
-
-### 3. Fotos do Portfólio
-Troque os `.portfolio-placeholder` por imagens reais:
-```html
-<img src="obra-osasco.jpg" alt="Obra em Osasco" style="width:100%;height:100%;object-fit:cover;" />
-```
-
-### 4. Links do WhatsApp
-Já configurados com o número **(11) 95889-7180**.
-Para alterar: busque `5511958897180` no `index.html` e substitua.
-
-### 5. Favicon
-Adicione no `<head>` do `index.html`:
-```html
-<link rel="icon" type="image/png" href="favicon.png" />
-```
-
-## Seções do Site
-
-| # | Seção | Descrição |
-|---|-------|-----------|
-| 1 | Hero | Apresentação + CTA WhatsApp |
-| 2 | Serviços | 5 cards de serviços |
-| 3 | Diferenciais | 5 diferenciais da empresa |
-| 4 | Portfólio | Galeria com filtros |
-| 5 | Sobre | Perfil do engenheiro |
-| 6 | Regiões | Mapa + lista de cidades |
-| 7 | CTA Final | Chamada para ação |
-| 8 | Rodapé | Contatos e links |
+1. Acesse [vercel.com](https://vercel.com) → **Add New → Project**
+2. Faça upload da pasta (com as imagens incluídas) ou conecte ao GitHub
+3. Deploy automático — `vercel.json` já configurado
 
 ## Contato configurado
 
 - **WhatsApp:** (11) 95889-7180
 - **E-mail:** eng.christiancosta@outlook.com
-- **Instagram:** @christiancostaengenharia
+- **Instagram:** @eng.christiancosta
+- **LinkedIn:** linkedin.com/in/christian-costa-041047137/
 
 ---
-Desenvolvido com HTML, CSS e JavaScript puro. Pronto para deploy no Vercel.
+Código HTML/CSS/JS puro · Sem frameworks · Pronto para Vercel

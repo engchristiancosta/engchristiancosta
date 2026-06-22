@@ -3,673 +3,625 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Christian Costa Engenharia – Regularização de imóveis, projetos residenciais, reformas, laudos técnicos e acompanhamento de obras em Osasco, Carapicuíba, Barueri e região." />
-  <meta name="keywords" content="engenharia civil, regularização de imóveis, habite-se, alvará, reforma de apartamento, projeto estrutural, laudo técnico, Osasco, Carapicuíba, Barueri" />
-  <meta name="author" content="Christian Costa Engenharia" />
-  <meta property="og:title" content="Christian Costa Engenharia Civil" />
-  <meta property="og:description" content="Soluções técnicas para imóveis residenciais, reformas, regularização documental e acompanhamento de obras." />
+  <title>Christian Costa Engenharia Civil | Regularização de Imóveis em São Paulo</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Engenheiro Civil especialista em regularização de imóveis, habite-se, averbação, projetos residenciais, reformas e laudos técnicos. Atendimento em todo o Estado de São Paulo." />
+  <meta name="keywords" content="regularização de imóveis, habite-se, averbação, regularização de construção, projeto para prefeitura, projeto arquitetônico, projeto estrutural, reforma de apartamento, as built, BIM, engenheiro civil Osasco, engenheiro civil São Paulo" />
+  <meta name="author" content="Christian Costa Engenharia Civil" />
+  <meta property="og:title" content="Christian Costa Engenharia Civil | Regularização de Imóveis SP" />
+  <meta property="og:description" content="Regularização de imóveis, habite-se, averbação, projetos e laudos técnicos em todo o Estado de São Paulo." />
   <meta property="og:type" content="website" />
-  <title>Christian Costa Engenharia Civil</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- ═══════════════════════════ NAVBAR ═══════════════════════════ -->
-  <header class="navbar" id="navbar">
-    <div class="container nav-inner">
-      <a href="#hero" class="logo">
-        <div class="logo-mark">
-          <span class="logo-icon">⬡</span>
-        </div>
+<!-- ╔══════════════════════════════════════════╗
+     ║  NAVBAR                                  ║
+     ╚══════════════════════════════════════════╝ -->
+<header class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <!-- LOGO BRANCA na navbar (fundo escuro) -->
+    <a href="#hero" class="logo">
+      <img src="logo-branco.png" alt="Christian Costa Engenharia Civil"
+           class="logo-img logo-white"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+      <div class="logo-fallback">
+        <div class="logo-mark"><span>⬡</span></div>
         <div class="logo-text">
           <span class="logo-name">Christian Costa</span>
           <span class="logo-sub">Engenharia Civil</span>
         </div>
-      </a>
-      <nav class="nav-links">
-        <a href="#servicos">Serviços</a>
-        <a href="#diferenciais">Diferenciais</a>
-        <a href="#portfolio">Portfólio</a>
-        <a href="#sobre">Sobre</a>
-        <a href="#regioes">Regiões</a>
-        <a href="https://wa.me/5511958897180?text=Olá%2C%20vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento." class="btn-nav" target="_blank" rel="noopener">Orçamento</a>
-      </nav>
-      <button class="hamburger" id="hamburger" aria-label="Menu">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-    <div class="mobile-menu" id="mobileMenu">
-      <a href="#servicos" class="mobile-link">Serviços</a>
-      <a href="#diferenciais" class="mobile-link">Diferenciais</a>
-      <a href="#portfolio" class="mobile-link">Portfólio</a>
-      <a href="#sobre" class="mobile-link">Sobre</a>
-      <a href="#regioes" class="mobile-link">Regiões</a>
-      <a href="https://wa.me/5511958897180?text=Olá%2C%20vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento." class="mobile-link cta" target="_blank" rel="noopener">Solicitar Orçamento</a>
-    </div>
-  </header>
+      </div>
+    </a>
+    <nav class="nav-links" role="navigation" aria-label="Menu principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#atuacao">Serviços</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#empresas">Para Empresas</a>
+      <a href="#atendimento">Atendimento</a>
+      <a href="https://wa.me/5511958897180?text=Olá%2C%20vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento." class="btn-nav" target="_blank" rel="noopener">Orçamento</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Menu mobile">
+    <a href="#sobre" class="mobile-link">Sobre</a>
+    <a href="#atuacao" class="mobile-link">Serviços</a>
+    <a href="#portfolio" class="mobile-link">Portfólio</a>
+    <a href="#empresas" class="mobile-link">Para Empresas</a>
+    <a href="#atendimento" class="mobile-link">Atendimento</a>
+    <a href="https://wa.me/5511958897180?text=Olá%2C%20vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento." class="mobile-link cta" target="_blank" rel="noopener">Solicitar Orçamento</a>
+  </div>
+</header>
 
-  <!-- ═══════════════════════════ HERO ═══════════════════════════ -->
-  <section class="hero" id="hero">
-    <div class="hero-bg-grid"></div>
-    <div class="hero-accent-line"></div>
-    <div class="container hero-inner">
-      <div class="hero-content" data-aos="fade-right">
-        <div class="hero-eyebrow">
-          <span class="eyebrow-line"></span>
-          <span>Engenharia Civil · CREA Registrado</span>
-        </div>
-        <h1 class="hero-title">Engenharia Civil para<br /><em>Regularização,<br />Projetos e Reformas</em></h1>
-        <p class="hero-subtitle">Soluções técnicas para imóveis residenciais, reformas, regularização documental e acompanhamento de obras.</p>
-        <div class="hero-cta">
-          <a href="https://wa.me/5511958897180?text=Olá%2C%20vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento." class="btn-primary" target="_blank" rel="noopener">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.558 4.123 1.528 5.856L0 24l6.336-1.508A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.006-1.37l-.36-.213-3.761.896.944-3.657-.234-.375A9.818 9.818 0 1112 21.818z"/></svg>
-            Falar no WhatsApp
-          </a>
-          <a href="#servicos" class="btn-outline">Ver Serviços</a>
-        </div>
-        <div class="hero-stats">
-          <div class="stat">
-            <span class="stat-num">+100</span>
-            <span class="stat-label">Imóveis Regularizados</span>
+<!-- ╔══════════════════════════════════════════╗
+     ║  1 · HERO                                ║
+     ╚══════════════════════════════════════════╝ -->
+<section class="hero" id="hero">
+  <div class="hero-bg">
+    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1600&q=80&fit=crop"
+         alt="" class="hero-bg-img" loading="eager" />
+    <div class="hero-overlay"></div>
+  </div>
+  <div class="container hero-inner">
+    <div class="hero-content" data-aos="fade-right">
+      <div class="hero-eyebrow">
+        <span class="eyebrow-line"></span>
+        <span>Engenharia Civil · CREA Registrado · Estado de São Paulo</span>
+      </div>
+      <h1 class="hero-title">Regularização de Imóveis<br /><em>e Engenharia Civil</em></h1>
+      <p class="hero-subtitle">Atendimento em todo o Estado de São Paulo para regularização de imóveis, projetos residenciais, reformas, laudos técnicos e apoio especializado para empresas.</p>
+      <div class="hero-cta">
+        <a href="https://wa.me/5511958897180?text=Olá%2C%20vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento." class="btn-primary" target="_blank" rel="noopener">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.558 4.123 1.528 5.856L0 24l6.336-1.508A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.006-1.37l-.36-.213-3.761.896.944-3.657-.234-.375A9.818 9.818 0 1112 21.818z"/></svg>
+          Falar no WhatsApp
+        </a>
+        <a href="#atuacao" class="btn-outline">Solicitar Orçamento</a>
+      </div>
+    </div>
+    <div class="hero-photo-card" data-aos="fade-left">
+      <div class="hero-photo-frame">
+        <img src="foto-christian.jpg" alt="Christian Costa, Engenheiro Civil" class="hero-photo"
+             onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1556761175-b413da4baf72?w=600&q=80&fit=crop&crop=face';" />
+      </div>
+      <!-- CAPTION com fundo sólido garantindo legibilidade -->
+      <div class="hero-photo-caption">
+        <div class="caption-inner">
+          <div class="caption-text">
+            <strong>Christian Costa</strong>
+            <span>Engenheiro Civil</span>
           </div>
-          <div class="stat-divider"></div>
-          <div class="stat">
-            <span class="stat-num">+50</span>
-            <span class="stat-label">Obras Acompanhadas</span>
-          </div>
-          <div class="stat-divider"></div>
-          <div class="stat">
-            <span class="stat-num">7</span>
-            <span class="stat-label">Cidades Atendidas</span>
+          <div class="caption-badge">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            CREA Registrado
           </div>
         </div>
       </div>
-      <div class="hero-visual" data-aos="fade-left">
-        <div class="hero-card-main">
-          <div class="photo-placeholder">
-            <div class="photo-inner">
-              <svg viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="60" cy="42" r="26" fill="#1F5A9D" opacity="0.3"/>
-                <circle cx="60" cy="42" r="18" fill="#1F5A9D" opacity="0.5"/>
-                <path d="M20 110c0-22.091 17.909-40 40-40s40 17.909 40 40" fill="#1F5A9D" opacity="0.3"/>
-              </svg>
-              <div class="photo-label">Foto do Engenheiro</div>
-              <div class="photo-sublabel">Substituir pela foto profissional</div>
-            </div>
-          </div>
-          <div class="card-badge">
-            <div class="badge-logo-space">
-              <span class="badge-logo-text">Logo da Empresa</span>
-            </div>
-            <div class="card-info">
-              <p class="card-name">Christian Costa</p>
-              <p class="card-role">Engenheiro Civil</p>
-            </div>
-          </div>
+      <div class="hero-float-tag">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span>Todo o Estado de SP</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ╔══════════════════════════════════════════╗
+     ║  2 · SOBRE O ENGENHEIRO                  ║
+     ╚══════════════════════════════════════════╝ -->
+<section class="sobre" id="sobre">
+  <div class="container sobre-inner">
+    <div class="sobre-visual" data-aos="fade-right">
+      <div class="sobre-img-frame">
+        <img src="foto-christian.jpg" alt="Christian Costa — Engenheiro Civil"
+             onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80&fit=crop';" />
+      </div>
+      <!-- LOGO COLORIDA na seção sobre (fundo branco) -->
+      <div class="sobre-logo-box">
+        <img src="logo-colorido.png" alt="Christian Costa Engenharia Civil"
+             onerror="this.style.display='none';" />
+      </div>
+      <div class="sobre-credentials-card">
+        <div class="cred-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          <span>Técnico em Edificações</span>
         </div>
-        <div class="hero-card-float float-1">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1F5A9D" stroke-width="2.5"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
-          <span>Regularização em andamento</span>
+        <div class="cred-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          <span>Engenheiro Civil</span>
         </div>
-        <div class="hero-card-float float-2">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1F5A9D" stroke-width="2.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
-          <span>Projeto Aprovado</span>
+        <div class="cred-item">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          <span>Pós-Graduado em Gerenciamento de Obras e Projetos</span>
         </div>
       </div>
     </div>
-    <div class="hero-scroll-hint">
-      <span>Rolar para ver</span>
-      <div class="scroll-arrow"></div>
+    <div class="sobre-content" data-aos="fade-left">
+      <span class="eyebrow">Sobre o Engenheiro</span>
+      <h2>Atendimento Direto com Engenheiro Civil</h2>
+      <p class="sobre-lead">Christian Costa atua nas áreas de regularização de imóveis, projetos residenciais, reformas, laudos técnicos, acompanhamento de obras e apoio técnico para empresas da construção civil.</p>
+      <p>Possui experiência prática em obras, levantamentos técnicos, vistorias, regularizações junto a prefeituras e desenvolvimento de projetos, oferecendo atendimento direto ao cliente em todas as etapas do processo.</p>
+      <p class="sobre-sp">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Atendimento em todo o Estado de São Paulo.
+      </p>
+      <a href="https://wa.me/5511958897180?text=Olá%2C%20gostaria%20de%20falar%20com%20o%20engenheiro." class="btn-blue" target="_blank" rel="noopener">Falar com o Engenheiro</a>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ═══════════════════════════ SERVIÇOS ═══════════════════════════ -->
-  <section class="servicos" id="servicos">
-    <div class="container">
-      <div class="section-header" data-aos="fade-up">
-        <span class="section-eyebrow">O que fazemos</span>
-        <h2 class="section-title">Serviços de Engenharia Civil</h2>
-        <p class="section-desc">Soluções completas e documentadas para cada etapa do seu imóvel ou obra.</p>
+<!-- ╔══════════════════════════════════════════╗
+     ║  3 · ÁREAS DE ATUAÇÃO                    ║
+     ╚══════════════════════════════════════════╝ -->
+<section class="atuacao" id="atuacao">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <span class="eyebrow">O que fazemos</span>
+      <h2>Áreas de Atuação</h2>
+      <p>Soluções técnicas completas, da regularização documental ao apoio especializado.</p>
+    </div>
+
+    <article class="card-featured" data-aos="fade-up">
+      <div class="card-featured-img">
+        <img src="regularizacao.jpg" alt="Regularização de imóvel"
+             onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=900&q=80&fit=crop';" />
+        <span class="featured-tag">Principal Especialidade</span>
       </div>
-      <div class="servicos-grid">
-
-        <div class="servico-card" data-aos="fade-up" data-aos-delay="0">
-          <div class="servico-icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="8" y="12" width="32" height="28" rx="2" stroke="currentColor" stroke-width="2.5"/>
-              <path d="M16 12V8h16v4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-              <path d="M16 22h16M16 28h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <circle cx="36" cy="34" r="7" fill="var(--blue-mid)" opacity="0.15"/>
-              <path d="M33 34l2 2 4-4" stroke="var(--blue-mid)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </div>
-          <h3 class="servico-title">Regularização de Imóveis</h3>
-          <ul class="servico-list">
-            <li>Habite-se</li>
-            <li>Alvará de Construção</li>
-            <li>Regularização Municipal</li>
-            <li>CND – Certidão Negativa de Débitos</li>
-            <li>Averbação no Cartório</li>
-            <li>Desdobro de Lote</li>
-            <li>Usucapião</li>
-          </ul>
-          <a href="https://wa.me/5511958897180?text=Olá%2C%20tenho%20interesse%20em%20regularização%20de%20imóvel." class="servico-cta" target="_blank" rel="noopener">Consultar →</a>
+      <div class="card-featured-body">
+        <div class="card-icon-title">
+          <span class="card-emoji">🏠</span>
+          <h3>Regularização de Imóveis</h3>
         </div>
+        <p class="card-desc">Regularizamos seu imóvel junto à prefeitura e ao cartório, resolvendo pendências documentais e garantindo segurança jurídica para venda, financiamento ou inventário.</p>
+        <ul class="service-list two-col">
+          <li>Regularização Municipal</li>
+          <li>Habite-se</li>
+          <li>Certidão de Regularização</li>
+          <li>Averbação</li>
+          <li>Levantamento Cadastral</li>
+          <li>Planta As Built</li>
+          <li>Desdobro</li>
+          <li>Usucapião</li>
+        </ul>
+        <a href="https://wa.me/5511958897180?text=Olá%2C%20preciso%20regularizar%20meu%20imóvel." class="btn-blue" target="_blank" rel="noopener">Consultar sobre Regularização</a>
+      </div>
+    </article>
 
-        <div class="servico-card" data-aos="fade-up" data-aos-delay="80">
-          <div class="servico-icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="8" y="8" width="20" height="32" rx="2" stroke="currentColor" stroke-width="2.5"/>
-              <path d="M28 20h12v20H28" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-              <path d="M14 16h8M14 22h8M14 28h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              <path d="M32 26h4M32 30h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </div>
-          <h3 class="servico-title">Reforma de Apartamentos</h3>
-          <ul class="servico-list">
-            <li>Projeto de Reforma</li>
-            <li>ART – Anotação de Responsabilidade Técnica</li>
-            <li>Laudo de Vistoria</li>
-            <li>Aprovação em Condomínio</li>
-          </ul>
-          <a href="https://wa.me/5511958897180?text=Olá%2C%20tenho%20interesse%20em%20reforma%20de%20apartamento." class="servico-cta" target="_blank" rel="noopener">Consultar →</a>
+    <div class="cards-grid">
+      <article class="service-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="service-card-img">
+          <img src="projetos.jpg" alt="Projetos Residenciais"
+               onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=700&q=80&fit=crop';" />
         </div>
-
-        <div class="servico-card" data-aos="fade-up" data-aos-delay="160">
-          <div class="servico-icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M8 40V22l16-14 16 14v18" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
-              <rect x="18" y="28" width="12" height="12" stroke="currentColor" stroke-width="2"/>
-              <path d="M14 20h20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
+        <div class="service-card-body">
+          <div class="card-icon-title">
+            <span class="card-emoji">📐</span>
+            <h3>Projetos Residenciais</h3>
           </div>
-          <h3 class="servico-title">Projetos Residenciais</h3>
-          <ul class="servico-list">
+          <ul class="service-list">
             <li>Projeto Arquitetônico</li>
             <li>Projeto Estrutural</li>
             <li>Projeto Elétrico</li>
             <li>Projeto Hidráulico</li>
+            <li>Projeto Executivo</li>
+            <li>Projeto para Alvará</li>
           </ul>
-          <a href="https://wa.me/5511958897180?text=Olá%2C%20tenho%20interesse%20em%20projetos%20residenciais." class="servico-cta" target="_blank" rel="noopener">Consultar →</a>
+          <a href="https://wa.me/5511958897180?text=Olá%2C%20tenho%20interesse%20em%20projetos%20residenciais." class="card-link" target="_blank" rel="noopener">Consultar →</a>
         </div>
+      </article>
 
-        <div class="servico-card" data-aos="fade-up" data-aos-delay="240">
-          <div class="servico-icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="24" cy="24" r="14" stroke="currentColor" stroke-width="2.5"/>
-              <path d="M24 16v8l6 3" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-              <path d="M10 10l4 4M38 10l-4 4M10 38l4-4M38 38l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
+      <article class="service-card" data-aos="fade-up" data-aos-delay="80">
+        <div class="service-card-img">
+          <img src="apartamento.jpg" alt="Reforma de Apartamentos"
+               onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1484154218962-a197022b5858?w=700&q=80&fit=crop';" />
+        </div>
+        <div class="service-card-body">
+          <div class="card-icon-title">
+            <span class="card-emoji">🏢</span>
+            <h3>Reforma de Apartamentos</h3>
           </div>
-          <h3 class="servico-title">Laudos e Vistorias</h3>
-          <ul class="servico-list">
+          <ul class="service-list">
+            <li>ART de Reforma</li>
+            <li>Plano de Reforma</li>
+            <li>Memorial Descritivo</li>
+            <li>Vistorias</li>
+            <li>Aprovação em Condomínio</li>
+          </ul>
+          <a href="https://wa.me/5511958897180?text=Olá%2C%20tenho%20interesse%20em%20reforma%20de%20apartamento." class="card-link" target="_blank" rel="noopener">Consultar →</a>
+        </div>
+      </article>
+
+      <article class="service-card" data-aos="fade-up" data-aos-delay="160">
+        <div class="service-card-img">
+          <!-- Imagem corrigida — inspeção/vistoria técnica -->
+          <img src="laudos.jpg" alt="Laudos e Vistorias"
+               onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=700&q=80&fit=crop';" />
+        </div>
+        <div class="service-card-body">
+          <div class="card-icon-title">
+            <span class="card-emoji">📋</span>
+            <h3>Laudos e Vistorias Técnicas</h3>
+          </div>
+          <ul class="service-list">
             <li>Laudos Técnicos</li>
-            <li>Relatórios de Inspeção</li>
-            <li>Vistorias em Campo</li>
-            <li>ART – Anotação de Responsabilidade Técnica</li>
+            <li>Parecer Técnico</li>
+            <li>Relatórios Fotográficos</li>
+            <li>Inspeções</li>
+            <li>Avaliação de Patologias</li>
           </ul>
-          <a href="https://wa.me/5511958897180?text=Olá%2C%20tenho%20interesse%20em%20laudos%20e%20vistorias." class="servico-cta" target="_blank" rel="noopener">Consultar →</a>
+          <a href="https://wa.me/5511958897180?text=Olá%2C%20tenho%20interesse%20em%20laudos%20e%20vistorias." class="card-link" target="_blank" rel="noopener">Consultar →</a>
         </div>
+      </article>
 
-        <div class="servico-card" data-aos="fade-up" data-aos-delay="320">
-          <div class="servico-icon">
-            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="6" y="14" width="36" height="28" rx="2" stroke="currentColor" stroke-width="2.5"/>
-              <path d="M14 14V8M34 14V8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-              <path d="M6 24h36" stroke="currentColor" stroke-width="2"/>
-              <rect x="14" y="30" width="6" height="6" stroke="currentColor" stroke-width="1.5"/>
-              <rect x="28" y="30" width="6" height="6" stroke="currentColor" stroke-width="1.5"/>
-            </svg>
+      <article class="service-card" data-aos="fade-up" data-aos-delay="240">
+        <div class="service-card-img">
+          <img src="apoio-tecnico.jpg" alt="Apoio Técnico para Empresas"
+               onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=700&q=80&fit=crop';" />
+        </div>
+        <div class="service-card-body">
+          <div class="card-icon-title">
+            <span class="card-emoji">👷</span>
+            <h3>Apoio Técnico para Empresas</h3>
           </div>
-          <h3 class="servico-title">Gerenciamento de Obras</h3>
-          <ul class="servico-list">
-            <li>Planejamento de Obra</li>
-            <li>Fiscalização Técnica</li>
-            <li>Controle de Custos</li>
-            <li>Cronograma Físico-Financeiro</li>
+          <ul class="service-list">
+            <li>Levantamentos e As Built</li>
+            <li>Fiscalização</li>
+            <li>Compatibilização</li>
+            <li>Apoio em Campo</li>
+            <li>Relatórios Técnicos</li>
+            <li>Apoio Documental</li>
           </ul>
-          <a href="https://wa.me/5511958897180?text=Olá%2C%20tenho%20interesse%20em%20gerenciamento%20de%20obras." class="servico-cta" target="_blank" rel="noopener">Consultar →</a>
+          <a href="https://wa.me/5511958897180?text=Olá%2C%20represento%20uma%20empresa%20e%20gostaria%20de%20apoio%20técnico." class="card-link" target="_blank" rel="noopener">Consultar →</a>
         </div>
+      </article>
+    </div>
+  </div>
+</section>
 
+<!-- ╔══════════════════════════════════════════╗
+     ║  4 · COMO FUNCIONA  (fundo azul escuro)  ║
+     ╚══════════════════════════════════════════╝ -->
+<section class="como-funciona" id="como-funciona">
+  <div class="container">
+    <div class="section-header light" data-aos="fade-up">
+      <span class="eyebrow light">Processo</span>
+      <h2 class="light">Como Funciona o Atendimento</h2>
+    </div>
+    <div class="steps-row">
+      <div class="step" data-aos="fade-up" data-aos-delay="0">
+        <div class="step-num">01</div>
+        <div class="step-icon">
+          <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2"><path d="M30 26.5c0 1.5-1.2 2.7-2.7 2.7H13l-4.7 4V12.7C8.3 11.2 9.5 10 11 10h17c1.5 0 2.7 1.2 2.7 2.7z"/></svg>
+        </div>
+        <h3>Contato Inicial</h3>
+        <p>Você nos contata pelo WhatsApp e descreve sua necessidade.</p>
+      </div>
+      <div class="step-arrow" aria-hidden="true"></div>
+      <div class="step" data-aos="fade-up" data-aos-delay="70">
+        <div class="step-num">02</div>
+        <div class="step-icon">
+          <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="18" r="11"/><path d="M26 26l8 8"/></svg>
+        </div>
+        <h3>Análise Técnica</h3>
+        <p>Avaliamos documentação, plantas e a situação atual do imóvel.</p>
+      </div>
+      <div class="step-arrow" aria-hidden="true"></div>
+      <div class="step" data-aos="fade-up" data-aos-delay="140">
+        <div class="step-num">03</div>
+        <div class="step-icon">
+          <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2"><circle cx="20" cy="20" r="12"/><path d="M20 10v10l7 4"/></svg>
+        </div>
+        <h3>Levantamento e Visita</h3>
+        <p>Realizamos vistoria em campo e coletamos todas as informações.</p>
+      </div>
+      <div class="step-arrow" aria-hidden="true"></div>
+      <div class="step" data-aos="fade-up" data-aos-delay="210">
+        <div class="step-num">04</div>
+        <div class="step-icon">
+          <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 32V20l12-12 12 12v12" stroke-linejoin="round"/><rect x="15" y="22" width="10" height="10"/></svg>
+        </div>
+        <h3>Desenvolvimento</h3>
+        <p>Elaboramos o projeto, laudo ou processo técnico para o seu caso.</p>
+      </div>
+      <div class="step-arrow" aria-hidden="true"></div>
+      <div class="step" data-aos="fade-up" data-aos-delay="280">
+        <div class="step-num">05</div>
+        <div class="step-icon">
+          <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="8" width="28" height="26" rx="2"/><path d="M14 20l4 4 8-8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Entrega e Acompanhamento</h3>
+        <p>Você recebe a documentação com respaldo técnico e acompanhamento.</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ═══════════════════════════ DIFERENCIAIS ═══════════════════════════ -->
-  <section class="diferenciais" id="diferenciais">
-    <div class="diferenciais-bg"></div>
-    <div class="container">
-      <div class="section-header light" data-aos="fade-up">
-        <span class="section-eyebrow light">Por que nos escolher</span>
-        <h2 class="section-title">Nossos Diferenciais</h2>
-        <p class="section-desc">Comprometimento técnico e atenção ao cliente em cada etapa do processo.</p>
-      </div>
-      <div class="diferenciais-grid">
-        <div class="diferencial-item" data-aos="fade-up" data-aos-delay="0">
-          <div class="dif-num">01</div>
-          <div class="dif-icon">
-            <svg viewBox="0 0 40 40" fill="none"><path d="M20 4l4.9 10 11 1.6-8 7.8 1.9 11L20 29.5 10.2 34.4l1.9-11-8-7.8 11-1.6z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
-          </div>
-          <h3>Atendimento Personalizado</h3>
-          <p>Cada cliente recebe atenção individualizada. Analisamos seu caso com cuidado e apresentamos a melhor solução técnica para a sua situação.</p>
-        </div>
-        <div class="diferencial-item" data-aos="fade-up" data-aos-delay="80">
-          <div class="dif-num">02</div>
-          <div class="dif-icon">
-            <svg viewBox="0 0 40 40" fill="none"><path d="M8 32V20l12-12 12 12v12" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><rect x="15" y="22" width="10" height="10" stroke="currentColor" stroke-width="2"/></svg>
-          </div>
-          <h3>Soluções Técnicas Completas</h3>
-          <p>Do projeto à regularização, oferecemos serviços integrados que cobrem todas as necessidades do seu imóvel em um único lugar.</p>
-        </div>
-        <div class="diferencial-item" data-aos="fade-up" data-aos-delay="160">
-          <div class="dif-num">03</div>
-          <div class="dif-icon">
-            <svg viewBox="0 0 40 40" fill="none"><rect x="6" y="8" width="28" height="26" rx="2" stroke="currentColor" stroke-width="2"/><path d="M14 20l4 4 8-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </div>
-          <h3>Segurança Jurídica</h3>
-          <p>Todos os documentos e ARTs emitidos com rigor técnico e respaldo legal, garantindo tranquilidade na regularização e na venda do seu imóvel.</p>
-        </div>
-        <div class="diferencial-item" data-aos="fade-up" data-aos-delay="240">
-          <div class="dif-num">04</div>
-          <div class="dif-icon">
-            <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="14" stroke="currentColor" stroke-width="2"/><path d="M20 12v8l5 3" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
-          </div>
-          <h3>Acompanhamento Profissional</h3>
-          <p>Presença ativa durante todas as fases da obra ou processo de regularização. Você é atualizado em cada etapa com clareza e transparência.</p>
-        </div>
-        <div class="diferencial-item" data-aos="fade-up" data-aos-delay="320">
-          <div class="dif-num">05</div>
-          <div class="dif-icon">
-            <svg viewBox="0 0 40 40" fill="none"><path d="M10 32l6-14 8 6 6-14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="32" r="2.5" fill="currentColor"/></svg>
-          </div>
-          <h3>Experiência em Campo</h3>
-          <p>Atuação direta nas obras, com visitas técnicas, laudos precisos e conhecimento prático da realidade das construções na região metropolitana de São Paulo.</p>
-        </div>
-      </div>
+<!-- ╔══════════════════════════════════════════╗
+     ║  5 · NOSSOS DIFERENCIAIS                 ║
+     ║  (inclui Método Bora na Obra integrado)  ║
+     ╚══════════════════════════════════════════╝ -->
+<section class="diferenciais" id="diferenciais">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <span class="eyebrow">Por que nos escolher</span>
+      <h2>Nossos Diferenciais</h2>
+      <p>Compromisso técnico, presença em campo e atendimento personalizado em cada etapa.</p>
     </div>
-  </section>
 
-  <!-- ═══════════════════════════ PORTFÓLIO ═══════════════════════════ -->
-  <section class="portfolio" id="portfolio">
-    <div class="container">
-      <div class="section-header" data-aos="fade-up">
-        <span class="section-eyebrow">Nosso trabalho</span>
-        <h2 class="section-title">Portfólio de Projetos</h2>
-        <p class="section-desc">Obras, reformas, vistorias e regularizações realizadas com excelência técnica.</p>
+    <!-- Bloco Método Bora na Obra integrado ao topo dos diferenciais -->
+    <div class="metodo-inline" data-aos="fade-up">
+      <div class="metodo-inline-header">
+        <span class="metodo-label">Método Bora na Obra</span>
+        <p>Uma metodologia baseada em planejamento, presença em campo e responsabilidade técnica.</p>
       </div>
-      <div class="portfolio-filters" data-aos="fade-up">
-        <button class="filter-btn active" data-filter="all">Todos</button>
-        <button class="filter-btn" data-filter="obras">Obras</button>
-        <button class="filter-btn" data-filter="reformas">Reformas</button>
-        <button class="filter-btn" data-filter="projetos">Projetos</button>
-        <button class="filter-btn" data-filter="regularizacao">Regularização</button>
-      </div>
-      <div class="portfolio-grid" id="portfolioGrid">
-
-        <div class="portfolio-item" data-category="obras" data-aos="fade-up">
-          <div class="portfolio-img">
-            <div class="portfolio-placeholder obras">
-              <svg viewBox="0 0 80 60" fill="none"><rect x="5" y="15" width="70" height="40" rx="2" fill="#1F5A9D" opacity="0.1" stroke="#1F5A9D" stroke-width="1.5" opacity="0.3"/><path d="M5 30h70" stroke="#1F5A9D" stroke-width="1" opacity="0.3"/><rect x="25" y="30" width="30" height="25" fill="#1F5A9D" opacity="0.1"/><path d="M40 5L5 25M40 5L75 25" stroke="#1F5A9D" stroke-width="1.5" opacity="0.3"/></svg>
-              <span>Foto da Obra</span>
-            </div>
+      <div class="metodo-inline-grid">
+        <div class="metodo-inline-card">
+          <div class="mi-icon">
+            <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="20" cy="20" r="13"/><path d="M13 20h14M20 13v14" stroke-linecap="round"/></svg>
           </div>
-          <div class="portfolio-info">
-            <span class="port-tag">Obra</span>
-            <h4>Acompanhamento de Construção</h4>
-            <p>Osasco – SP</p>
-          </div>
+          <h4>🧠 Planejamento e Clareza</h4>
+          <p>Organização, análise técnica e definição objetiva das soluções antes de qualquer execução.</p>
         </div>
-
-        <div class="portfolio-item" data-category="reformas" data-aos="fade-up" data-aos-delay="60">
-          <div class="portfolio-img">
-            <div class="portfolio-placeholder reformas">
-              <svg viewBox="0 0 80 60" fill="none"><rect x="10" y="10" width="60" height="40" rx="2" stroke="#1F5A9D" stroke-width="1.5" opacity="0.4"/><rect x="20" y="20" width="18" height="14" stroke="#1F5A9D" stroke-width="1.2" opacity="0.3"/><rect x="42" y="20" width="18" height="14" stroke="#1F5A9D" stroke-width="1.2" opacity="0.3"/><rect x="30" y="34" width="20" height="16" fill="#1F5A9D" opacity="0.1" stroke="#1F5A9D" stroke-width="1.2" opacity="0.3"/></svg>
-              <span>Foto da Reforma</span>
-            </div>
+        <div class="metodo-inline-card">
+          <div class="mi-icon">
+            <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 6l14 6v10c0 11-6.3 16-14 20-7.7-4-14-9-14-20V12z" stroke-linejoin="round"/><path d="M14 20l4 4 8-8" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
-          <div class="portfolio-info">
-            <span class="port-tag">Reforma</span>
-            <h4>Reforma de Apartamento</h4>
-            <p>Carapicuíba – SP</p>
-          </div>
+          <h4>🏃 Presença em Campo</h4>
+          <p>Acompanhamento próximo, visitas técnicas regulares e atenção aos detalhes da execução.</p>
         </div>
-
-        <div class="portfolio-item" data-category="regularizacao" data-aos="fade-up" data-aos-delay="120">
-          <div class="portfolio-img">
-            <div class="portfolio-placeholder regularizacao">
-              <svg viewBox="0 0 80 60" fill="none"><rect x="15" y="8" width="50" height="44" rx="2" stroke="#1F5A9D" stroke-width="1.5" opacity="0.4"/><path d="M25 22h30M25 30h20M25 38h14" stroke="#1F5A9D" stroke-width="2" stroke-linecap="round" opacity="0.3"/><circle cx="62" cy="48" r="10" fill="#1F5A9D" opacity="0.1"/><path d="M57 48l3 3 6-6" stroke="#1F5A9D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              <span>Documento Regularizado</span>
-            </div>
+        <div class="metodo-inline-card">
+          <div class="mi-icon">
+            <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="6" y="8" width="28" height="26" rx="2"/><path d="M13 19l5 5 10-10" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
-          <div class="portfolio-info">
-            <span class="port-tag">Regularização</span>
-            <h4>Habite-se e Averbação</h4>
-            <p>Barueri – SP</p>
-          </div>
-        </div>
-
-        <div class="portfolio-item" data-category="obras" data-aos="fade-up" data-aos-delay="60">
-          <div class="portfolio-img">
-            <div class="portfolio-placeholder obras">
-              <svg viewBox="0 0 80 60" fill="none"><rect x="5" y="20" width="70" height="35" fill="#1F5A9D" opacity="0.05" stroke="#1F5A9D" stroke-width="1.5" opacity="0.3"/><path d="M20 20V10M40 20V5M60 20V12" stroke="#1F5A9D" stroke-width="2" stroke-linecap="round" opacity="0.3"/><rect x="12" y="30" width="12" height="10" stroke="#1F5A9D" stroke-width="1.2" opacity="0.3"/><rect x="34" y="30" width="12" height="10" stroke="#1F5A9D" stroke-width="1.2" opacity="0.3"/><rect x="56" y="30" width="12" height="10" stroke="#1F5A9D" stroke-width="1.2" opacity="0.3"/></svg>
-              <span>Foto da Concretagem</span>
-            </div>
-          </div>
-          <div class="portfolio-info">
-            <span class="port-tag">Obra</span>
-            <h4>Visita Técnica – Concretagem</h4>
-            <p>Jandira – SP</p>
-          </div>
-        </div>
-
-        <div class="portfolio-item" data-category="projetos" data-aos="fade-up" data-aos-delay="120">
-          <div class="portfolio-img">
-            <div class="portfolio-placeholder projetos">
-              <svg viewBox="0 0 80 60" fill="none"><rect x="8" y="8" width="64" height="44" rx="2" stroke="#1F5A9D" stroke-width="1.5" opacity="0.3"/><path d="M8 20h64M20 8v52" stroke="#1F5A9D" stroke-width="1" opacity="0.2"/><path d="M30 35h30M30 42h20" stroke="#1F5A9D" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/><rect x="30" y="25" width="14" height="8" stroke="#1F5A9D" stroke-width="1.2" opacity="0.3"/></svg>
-              <span>Planta do Projeto</span>
-            </div>
-          </div>
-          <div class="portfolio-info">
-            <span class="port-tag">Projeto</span>
-            <h4>Projeto Arquitetônico Residencial</h4>
-            <p>Cotia – SP</p>
-          </div>
-        </div>
-
-        <div class="portfolio-item" data-category="regularizacao" data-aos="fade-up" data-aos-delay="180">
-          <div class="portfolio-img">
-            <div class="portfolio-placeholder regularizacao">
-              <svg viewBox="0 0 80 60" fill="none"><circle cx="40" cy="30" r="22" stroke="#1F5A9D" stroke-width="1.5" opacity="0.2"/><path d="M28 30l7 7 17-14" stroke="#1F5A9D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"/></svg>
-              <span>Foto da Regularização</span>
-            </div>
-          </div>
-          <div class="portfolio-info">
-            <span class="port-tag">Regularização</span>
-            <h4>Processo de Usucapião</h4>
-            <p>Itapevi – SP</p>
-          </div>
-        </div>
-
-      </div>
-      <div class="portfolio-cta" data-aos="fade-up">
-        <p>Quer ver seu projeto aqui?</p>
-        <a href="https://wa.me/5511958897180?text=Olá%2C%20gostaria%20de%20solicitar%20um%20orçamento." class="btn-primary" target="_blank" rel="noopener">Solicitar Orçamento</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════════ SOBRE ═══════════════════════════ -->
-  <section class="sobre" id="sobre">
-    <div class="container sobre-inner">
-      <div class="sobre-visual" data-aos="fade-right">
-        <div class="sobre-photo-wrap">
-          <div class="sobre-photo-placeholder">
-            <svg viewBox="0 0 160 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="80" cy="72" r="44" fill="#1F5A9D" opacity="0.15"/>
-              <circle cx="80" cy="72" r="30" fill="#1F5A9D" opacity="0.2"/>
-              <path d="M10 200c0-38.66 31.34-70 70-70s70 31.34 70 70" fill="#1F5A9D" opacity="0.15"/>
-            </svg>
-            <div class="sobre-photo-label">
-              <span>Foto Profissional</span>
-              <small>Christian Costa</small>
-            </div>
-          </div>
-          <div class="sobre-badge">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.58-7 8-7s8 3 8 7"/></svg>
-            <span>Engenheiro Civil</span>
-          </div>
-        </div>
-        <div class="sobre-logo-wrap">
-          <div class="logo-placeholder-box">
-            <span class="lp-icon">⬡</span>
-            <span class="lp-text">Logo da Empresa</span>
-          </div>
-        </div>
-      </div>
-      <div class="sobre-content" data-aos="fade-left">
-        <span class="section-eyebrow">Quem somos</span>
-        <h2 class="section-title">Conheça Christian Costa</h2>
-        <p class="sobre-text">Engenheiro Civil atuando em projetos, regularização de imóveis, reformas, laudos técnicos e acompanhamento de obras, oferecendo soluções práticas e seguras para clientes residenciais e corporativos.</p>
-        <p class="sobre-text">Com presença constante em campo e conhecimento profundo das exigências dos órgãos municipais da região metropolitana de São Paulo, a Christian Costa Engenharia entrega resultados concretos, com documentação regularizada e qualidade comprovada.</p>
-        <div class="sobre-credentials">
-          <div class="credential">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-            <span>CREA Registrado</span>
-          </div>
-          <div class="credential">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-            <span>ART em todos os serviços</span>
-          </div>
-          <div class="credential">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-            <span>Atendimento em 7 cidades</span>
-          </div>
-          <div class="credential">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-            <span>Parcerias com arquitetos e construtoras</span>
-          </div>
-        </div>
-        <a href="https://wa.me/5511958897180?text=Olá%2C%20vim%20pelo%20site%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto." class="btn-primary" target="_blank" rel="noopener">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.558 4.123 1.528 5.856L0 24l6.336-1.508A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.006-1.37l-.36-.213-3.761.896.944-3.657-.234-.375A9.818 9.818 0 1112 21.818z"/></svg>
-          Falar com o Engenheiro
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════════ REGIÕES ═══════════════════════════ -->
-  <section class="regioes" id="regioes">
-    <div class="container">
-      <div class="section-header" data-aos="fade-up">
-        <span class="section-eyebrow">Cobertura</span>
-        <h2 class="section-title">Região de Atendimento</h2>
-        <p class="section-desc">Atendemos toda a região metropolitana Oeste de São Paulo com presença em campo e visitas técnicas.</p>
-      </div>
-      <div class="regioes-inner">
-        <div class="regioes-map" data-aos="fade-right">
-          <div class="map-visual">
-            <svg viewBox="0 0 420 320" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <!-- SP state silhouette suggestion -->
-              <rect width="420" height="320" fill="#0A2E52" rx="12"/>
-              <path d="M60 160 Q80 140 110 145 Q130 130 160 140 Q180 125 210 135 Q240 120 270 130 Q300 118 330 128 Q360 135 380 150 Q370 170 350 180 Q330 190 310 185 Q285 200 260 192 Q240 205 215 198 Q190 210 165 202 Q140 215 115 205 Q90 218 70 205 Q50 190 60 160Z" fill="#1F5A9D" opacity="0.4"/>
-              <!-- City markers -->
-              <circle cx="130" cy="175" r="8" fill="#1F5A9D"/>
-              <circle cx="130" cy="175" r="14" fill="#1F5A9D" opacity="0.2"/>
-              <text x="130" y="200" text-anchor="middle" fill="white" font-size="11" font-family="Barlow, sans-serif" font-weight="600">Osasco</text>
-
-              <circle cx="100" cy="185" r="6" fill="#1F5A9D"/>
-              <circle cx="100" cy="185" r="11" fill="#1F5A9D" opacity="0.2"/>
-              <text x="90" y="208" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="10" font-family="Barlow, sans-serif">Carapicuíba</text>
-
-              <circle cx="175" cy="155" r="7" fill="#1F5A9D"/>
-              <circle cx="175" cy="155" r="12" fill="#1F5A9D" opacity="0.2"/>
-              <text x="185" y="148" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-size="10" font-family="Barlow, sans-serif">Barueri</text>
-
-              <circle cx="82" cy="175" r="5" fill="#1F5A9D" opacity="0.8"/>
-              <text x="60" y="168" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="10" font-family="Barlow, sans-serif">Jandira</text>
-
-              <circle cx="60" cy="180" r="5" fill="#1F5A9D" opacity="0.8"/>
-              <text x="46" y="197" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="10" font-family="Barlow, sans-serif">Itapevi</text>
-
-              <circle cx="78" cy="220" r="5" fill="#1F5A9D" opacity="0.8"/>
-              <text x="80" y="240" text-anchor="middle" fill="rgba(255,255,255,0.7)" font-size="10" font-family="Barlow, sans-serif">Cotia</text>
-
-              <circle cx="230" cy="165" r="9" fill="#1F5A9D"/>
-              <circle cx="230" cy="165" r="16" fill="#1F5A9D" opacity="0.15"/>
-              <text x="230" y="190" text-anchor="middle" fill="rgba(255,255,255,0.9)" font-size="12" font-family="Barlow, sans-serif" font-weight="600">São Paulo</text>
-
-              <!-- Connecting lines -->
-              <line x1="130" y1="175" x2="100" y2="185" stroke="#1F5A9D" stroke-width="1.5" opacity="0.5"/>
-              <line x1="130" y1="175" x2="175" y2="155" stroke="#1F5A9D" stroke-width="1.5" opacity="0.5"/>
-              <line x1="100" y1="185" x2="82" y2="175" stroke="#1F5A9D" stroke-width="1" opacity="0.4"/>
-              <line x1="82" y1="175" x2="60" y2="180" stroke="#1F5A9D" stroke-width="1" opacity="0.4"/>
-              <line x1="100" y1="185" x2="78" y2="220" stroke="#1F5A9D" stroke-width="1" opacity="0.4"/>
-              <line x1="130" y1="175" x2="230" y2="165" stroke="#1F5A9D" stroke-width="1.5" opacity="0.4"/>
-            </svg>
-          </div>
-        </div>
-        <div class="regioes-lista" data-aos="fade-left">
-          <div class="cidade-item">
-            <div class="cidade-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            </div>
-            <div>
-              <strong>Osasco</strong>
-              <span>Regularização, projetos e obras</span>
-            </div>
-          </div>
-          <div class="cidade-item">
-            <div class="cidade-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            </div>
-            <div>
-              <strong>Carapicuíba</strong>
-              <span>Laudos, reformas e regularização</span>
-            </div>
-          </div>
-          <div class="cidade-item">
-            <div class="cidade-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            </div>
-            <div>
-              <strong>Barueri</strong>
-              <span>Projetos residenciais e gerenciamento</span>
-            </div>
-          </div>
-          <div class="cidade-item">
-            <div class="cidade-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            </div>
-            <div>
-              <strong>Jandira</strong>
-              <span>Vistorias e acompanhamento de obras</span>
-            </div>
-          </div>
-          <div class="cidade-item">
-            <div class="cidade-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            </div>
-            <div>
-              <strong>Itapevi</strong>
-              <span>Regularização e projetos</span>
-            </div>
-          </div>
-          <div class="cidade-item">
-            <div class="cidade-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            </div>
-            <div>
-              <strong>Cotia</strong>
-              <span>Laudos técnicos e reformas</span>
-            </div>
-          </div>
-          <div class="cidade-item destaque">
-            <div class="cidade-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            </div>
-            <div>
-              <strong>São Paulo</strong>
-              <span>Atendimento em toda a capital</span>
-            </div>
-          </div>
+          <h4>🏗️ Responsabilidade e Compromisso</h4>
+          <p>Atuação ética, documentação correta e ART em todos os serviços prestados.</p>
         </div>
       </div>
     </div>
-  </section>
 
-  <!-- ═══════════════════════════ CTA FINAL ═══════════════════════════ -->
-  <section class="cta-final">
-    <div class="cta-bg-grid"></div>
-    <div class="container cta-inner" data-aos="fade-up">
-      <div class="cta-icon-wrap">
-        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+    <!-- Grade de diferenciais -->
+    <div class="dif-grid">
+      <div class="dif-card" data-aos="fade-up" data-aos-delay="0">
+        <div class="dif-icon">
+          <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2"><circle cx="20" cy="14" r="6"/><path d="M8 33c0-6.6 5.4-12 12-12s12 5.4 12 12"/></svg>
+        </div>
+        <h3>Atendimento direto com engenheiro</h3>
+        <p>Você fala diretamente com quem executa o serviço, sem intermediários.</p>
       </div>
-      <h2>Precisa de ajuda com seu imóvel ou obra?</h2>
-      <p>Entre em contato agora. Atendimento rápido, diagnóstico gratuito e solução técnica personalizada para o seu caso.</p>
-      <div class="cta-buttons">
-        <a href="https://wa.me/5511958897180?text=Olá%2C%20vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento." class="btn-primary large" target="_blank" rel="noopener">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.558 4.123 1.528 5.856L0 24l6.336-1.508A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.006-1.37l-.36-.213-3.761.896.944-3.657-.234-.375A9.818 9.818 0 1112 21.818z"/></svg>
-          Solicitar Orçamento
-        </a>
-        <a href="tel:+5511958897180" class="btn-outline-white">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-          (11) 95889-7180
-        </a>
+      <div class="dif-card" data-aos="fade-up" data-aos-delay="60">
+        <div class="dif-icon">
+          <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="8" width="28" height="26" rx="2"/><path d="M14 20l4 4 8-8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Soluções completas para imóveis e obras</h3>
+        <p>Do diagnóstico à entrega final, cobrindo todas as etapas do processo.</p>
+      </div>
+      <div class="dif-card" data-aos="fade-up" data-aos-delay="120">
+        <div class="dif-icon">
+          <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 4l12 5v9c0 9-5.4 14.5-12 18-6.6-3.5-12-9-12-18V9z" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Responsabilidade técnica e documentação</h3>
+        <p>ART em todos os serviços, com segurança jurídica e respaldo legal.</p>
+      </div>
+      <div class="dif-card" data-aos="fade-up" data-aos-delay="180">
+        <div class="dif-icon">
+          <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 4v32M4 20h32" stroke-linecap="round"/><circle cx="20" cy="20" r="14"/></svg>
+        </div>
+        <h3>Atendimento em todo o Estado de São Paulo</h3>
+        <p>Visitas técnicas e serviços em qualquer região do estado.</p>
+      </div>
+      <div class="dif-card" data-aos="fade-up" data-aos-delay="240">
+        <div class="dif-icon">
+          <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 32l6-14 8 6 6-14" stroke-linecap="round" stroke-linejoin="round"/><circle cx="10" cy="32" r="2.5" fill="currentColor"/></svg>
+        </div>
+        <h3>Experiência prática em campo</h3>
+        <p>Vivência real em obras, vistorias e processos de regularização.</p>
+      </div>
+      <div class="dif-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="dif-icon">
+          <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 8h24v6L20 22 8 14V8z" stroke-linejoin="round"/><path d="M8 22v10h24V22"/></svg>
+        </div>
+        <h3>Foco em regularização e projetos</h3>
+        <p>Especialização nas áreas de maior demanda e complexidade documental.</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ═══════════════════════════ FOOTER ═══════════════════════════ -->
-  <footer class="footer">
-    <div class="container footer-inner">
-      <div class="footer-brand">
-        <div class="logo">
-          <div class="logo-mark">
-            <span class="logo-icon">⬡</span>
-          </div>
+<!-- ╔══════════════════════════════════════════╗
+     ║  6 · PORTFÓLIO                           ║
+     ╚══════════════════════════════════════════╝ -->
+<section class="portfolio" id="portfolio">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <span class="eyebrow">Trabalhos realizados</span>
+      <h2>Portfólio</h2>
+      <p>Regularizações, projetos, vistorias, obras e levantamentos realizados.</p>
+    </div>
+    <div class="portfolio-grid">
+      <div class="port-item port-large" data-aos="fade-up">
+        <img src="portfolio-01.jpg" alt="Regularização de imóvel residencial"
+             onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=900&q=80&fit=crop';" />
+        <div class="port-overlay">
+          <span class="port-cat">Regularização</span>
+          <h4>Regularização de Residência</h4>
+          <p>Habite-se e averbação em cartório.</p>
+        </div>
+      </div>
+      <div class="port-item" data-aos="fade-up" data-aos-delay="60">
+        <img src="portfolio-02.jpg" alt="Projeto arquitetônico residencial"
+             onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=700&q=80&fit=crop';" />
+        <div class="port-overlay">
+          <span class="port-cat">Projeto</span>
+          <h4>Projeto Arquitetônico</h4>
+          <p>Residência unifamiliar.</p>
+        </div>
+      </div>
+      <div class="port-item" data-aos="fade-up" data-aos-delay="120">
+        <img src="portfolio-03.jpg" alt="Reforma de apartamento"
+             onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1484154218962-a197022b5858?w=700&q=80&fit=crop';" />
+        <div class="port-overlay">
+          <span class="port-cat">Reforma</span>
+          <h4>Reforma de Apartamento</h4>
+          <p>ART e aprovação em condomínio.</p>
+        </div>
+      </div>
+      <div class="port-item" data-aos="fade-up" data-aos-delay="180">
+        <img src="portfolio-04.jpg" alt="Levantamento técnico As Built"
+             onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=700&q=80&fit=crop';" />
+        <div class="port-overlay">
+          <span class="port-cat">As Built</span>
+          <h4>Levantamento e As Built</h4>
+          <p>Relatório fotográfico detalhado.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ╔══════════════════════════════════════════╗
+     ║  7 · APOIO PARA EMPRESAS                 ║
+     ╚══════════════════════════════════════════╝ -->
+<section class="empresas" id="empresas">
+  <div class="container empresas-inner">
+    <div class="empresas-content" data-aos="fade-right">
+      <span class="eyebrow">Parcerias B2B</span>
+      <h2>Soluções para Empresas de Engenharia e Arquitetura</h2>
+      <p>Prestação de serviços técnicos especializados para construtoras, incorporadoras, escritórios de engenharia e arquitetura.</p>
+      <div class="emp-pills">
+        <span>BIM</span><span>As Built</span><span>Projetos Estruturais</span>
+        <span>Projetos Complementares</span><span>Compatibilização</span>
+        <span>Levantamentos</span><span>Fiscalização</span>
+        <span>Apoio em Campo</span><span>Laudos</span>
+      </div>
+      <a href="https://wa.me/5511958897180?text=Olá%2C%20represento%20uma%20empresa%20e%20gostaria%20de%20discutir%20uma%20parceria%20técnica." class="btn-blue" target="_blank" rel="noopener">Falar sobre Parceria</a>
+    </div>
+    <div class="empresas-visual" data-aos="fade-left">
+      <div class="empresas-img-wrap">
+        <img src="apoio-tecnico.jpg" alt="Apoio técnico para empresas de engenharia"
+             onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&q=80&fit=crop';" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ╔══════════════════════════════════════════╗
+     ║  8 · ÁREA DE ATENDIMENTO                 ║
+     ╚══════════════════════════════════════════╝ -->
+<section class="atendimento" id="atendimento">
+  <div class="container">
+    <div class="section-header" data-aos="fade-up">
+      <span class="eyebrow">Cobertura</span>
+      <h2>Atendimento em Todo o Estado de São Paulo</h2>
+    </div>
+    <div class="cidades-wrap" data-aos="fade-up">
+      <div class="cidade-chip destaque"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Osasco</div>
+      <div class="cidade-chip"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Carapicuíba</div>
+      <div class="cidade-chip"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Barueri</div>
+      <div class="cidade-chip"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Jandira</div>
+      <div class="cidade-chip"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Itapevi</div>
+      <div class="cidade-chip destaque"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>São Paulo</div>
+      <div class="cidade-chip"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Grande São Paulo</div>
+      <div class="cidade-chip wide"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>Interior de São Paulo</div>
+    </div>
+  </div>
+</section>
+
+<!-- ╔══════════════════════════════════════════╗
+     ║  9 · CTA FINAL                           ║
+     ╚══════════════════════════════════════════╝ -->
+<section class="cta-final">
+  <div class="cta-bg">
+    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600&q=80&fit=crop" alt="" loading="lazy" />
+    <div class="cta-overlay"></div>
+  </div>
+  <div class="container cta-inner" data-aos="fade-up">
+    <h2>Precisa regularizar seu imóvel<br />ou desenvolver um projeto?</h2>
+    <p>Entre em contato e receba orientação técnica para sua necessidade.</p>
+    <a href="https://wa.me/5511958897180?text=Olá%2C%20vim%20pelo%20site%20e%20gostaria%20de%20orientação%20técnica." class="btn-cta" target="_blank" rel="noopener">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.558 4.123 1.528 5.856L0 24l6.336-1.508A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.006-1.37l-.36-.213-3.761.896.944-3.657-.234-.375A9.818 9.818 0 1112 21.818z"/></svg>
+      Falar com o Engenheiro
+    </a>
+  </div>
+</section>
+
+<!-- ╔══════════════════════════════════════════╗
+     ║  RODAPÉ                                  ║
+     ╚══════════════════════════════════════════╝ -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="#hero" class="logo footer-logo">
+        <!-- LOGO BRANCA no rodapé (fundo escuro) -->
+        <img src="logo-branco.png" alt="Christian Costa Engenharia Civil"
+             class="logo-img logo-white"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+        <div class="logo-fallback">
+          <div class="logo-mark"><span>⬡</span></div>
           <div class="logo-text">
             <span class="logo-name">Christian Costa</span>
             <span class="logo-sub">Engenharia Civil</span>
           </div>
         </div>
-        <p class="footer-tagline">Engenharia Civil com responsabilidade técnica e compromisso com o cliente.</p>
-        <div class="footer-social">
-          <a href="https://instagram.com/christiancostaengenharia" target="_blank" rel="noopener" aria-label="Instagram">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-          </a>
-          <a href="https://wa.me/5511958897180" target="_blank" rel="noopener" aria-label="WhatsApp">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.558 4.123 1.528 5.856L0 24l6.336-1.508A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.006-1.37l-.36-.213-3.761.896.944-3.657-.234-.375A9.818 9.818 0 1112 21.818z"/></svg>
-          </a>
-        </div>
-      </div>
-      <div class="footer-links">
-        <div class="footer-col">
-          <h4>Serviços</h4>
-          <ul>
-            <li><a href="#servicos">Regularização de Imóveis</a></li>
-            <li><a href="#servicos">Reforma de Apartamentos</a></li>
-            <li><a href="#servicos">Projetos Residenciais</a></li>
-            <li><a href="#servicos">Laudos e Vistorias</a></li>
-            <li><a href="#servicos">Gerenciamento de Obras</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Regiões</h4>
-          <ul>
-            <li>Osasco</li>
-            <li>Carapicuíba</li>
-            <li>Barueri</li>
-            <li>Jandira · Itapevi</li>
-            <li>Cotia · São Paulo</li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Contato</h4>
-          <ul>
-            <li><a href="https://wa.me/5511958897180" target="_blank" rel="noopener">(11) 95889-7180</a></li>
-            <li><a href="mailto:eng.christiancosta@outlook.com">eng.christiancosta@outlook.com</a></li>
-            <li><a href="https://instagram.com/christiancostaengenharia" target="_blank" rel="noopener">@christiancostaengenharia</a></li>
-          </ul>
-        </div>
+      </a>
+      <p>Engenharia Civil com responsabilidade técnica e atendimento direto, em todo o Estado de São Paulo.</p>
+      <div class="footer-socials">
+        <a href="https://wa.me/5511958897180" target="_blank" rel="noopener" aria-label="WhatsApp" class="social-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.558 4.123 1.528 5.856L0 24l6.336-1.508A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.006-1.37l-.36-.213-3.761.896.944-3.657-.234-.375A9.818 9.818 0 1112 21.818z"/></svg>
+        </a>
+        <a href="https://instagram.com/eng.christiancosta" target="_blank" rel="noopener" aria-label="Instagram" class="social-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/christian-costa-041047137/" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="mailto:eng.christiancosta@outlook.com" aria-label="E-mail" class="social-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/></svg>
+        </a>
       </div>
     </div>
-    <div class="footer-bottom">
-      <div class="container">
-        <p>© 2025 Christian Costa Engenharia Civil. Todos os direitos reservados.</p>
-        <p>CREA Registrado · Engenharia Civil · SP</p>
+    <div class="footer-cols">
+      <div class="footer-col">
+        <h4>Serviços</h4>
+        <ul>
+          <li><a href="#atuacao">Regularização de Imóveis</a></li>
+          <li><a href="#atuacao">Habite-se e Averbação</a></li>
+          <li><a href="#atuacao">Projetos Residenciais</a></li>
+          <li><a href="#atuacao">Reforma de Apartamentos</a></li>
+          <li><a href="#atuacao">Laudos e Vistorias</a></li>
+          <li><a href="#empresas">Apoio para Empresas</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="https://wa.me/5511958897180" target="_blank" rel="noopener">WhatsApp: (11) 95889-7180</a></li>
+          <li><a href="mailto:eng.christiancosta@outlook.com">eng.christiancosta@outlook.com</a></li>
+          <li><a href="https://instagram.com/eng.christiancosta" target="_blank" rel="noopener">@eng.christiancosta</a></li>
+          <li><a href="https://www.linkedin.com/in/christian-costa-041047137/" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
       </div>
     </div>
-  </footer>
+  </div>
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p>© 2025 Christian Costa Engenharia Civil. Todos os direitos reservados.</p>
+      <p>CREA Registrado · Engenharia Civil · Estado de São Paulo</p>
+    </div>
+  </div>
+</footer>
 
-  <!-- WhatsApp Floating Button -->
-  <a href="https://wa.me/5511958897180?text=Olá%2C%20vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento." class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
-    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.558 4.123 1.528 5.856L0 24l6.336-1.508A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.006-1.37l-.36-.213-3.761.896.944-3.657-.234-.375A9.818 9.818 0 1112 21.818z"/></svg>
-    <span class="wf-pulse"></span>
-  </a>
+<!-- WhatsApp Floating -->
+<a href="https://wa.me/5511958897180?text=Olá%2C%20vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento."
+   class="wf" target="_blank" rel="noopener" aria-label="Contato via WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.558 4.123 1.528 5.856L0 24l6.336-1.508A11.943 11.943 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.006-1.37l-.36-.213-3.761.896.944-3.657-.234-.375A9.818 9.818 0 1112 21.818z"/></svg>
+  <span class="wf-ring"></span>
+</a>
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

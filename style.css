@@ -660,8 +660,8 @@ button{border:none;background:none;cursor:pointer;font-family:inherit}
   margin-bottom: 20px;
 }
 .sobre-logo-header img {
-  height: 250px;
-  width: 250px;
+  height: 150%;
+  width: auto;
   object-fit: contain;
 }
 
